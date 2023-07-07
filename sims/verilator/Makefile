@@ -138,7 +138,8 @@ VERILOG_IP_VERILATOR_FLAGS := \
 
 # normal flags used for chipyard builds (that are incompatible with vlog ip aka cva6/NVDLA)
 CHIPYARD_VERILATOR_FLAGS := \
-	--assert
+	--assert \
+	--timing
 
 # options dependent on whether external IP (cva6/NVDLA) or just chipyard is used
 # NOTE: defer the evaluation of this until it is used!
