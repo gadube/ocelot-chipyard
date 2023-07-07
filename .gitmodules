@@ -10,9 +10,6 @@
 [submodule "tools/torture"]
 	path = tools/torture
 	url = https://github.com/ucb-bar/riscv-torture.git
-[submodule "generators/boom"]
-	path = generators/boom
-	url = https://github.com/gadube/riscv-ocelot.git
 [submodule "generators/sifive-blocks"]
 	path = generators/sifive-blocks
 	url = https://github.com/chipsalliance/rocket-chip-blocks.git
@@ -127,3 +124,6 @@
 [submodule "sims/whisper"]
 	path = sims/whisper
 	url = https://github.com/tenstorrent/whisper.git
+[submodule "generators/boom"]
+	path = generators/boom
+	url = https://github.com/gadube/riscv-ocelot.git
